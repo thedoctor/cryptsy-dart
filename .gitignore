@@ -6,3 +6,6 @@ build/
 packages
 pubspec.lock
 *.~
+\#*
+.\#*
+*.py
