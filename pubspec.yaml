@@ -1,10 +1,9 @@
 name: cryptsy
 version: 0.0.1
 author: Matt Smith
-description: A library useful for applications or for sharing on pub.dartlang.org.
+description: A library for interacting with the Cryptsy v2 API
 homepage: https://github.com/imthedoctor/cryptsy-dart
 dependencies:
-  cipher: any
   http: any
   crypto: any
 dev_dependencies:
