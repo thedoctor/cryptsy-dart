@@ -8,11 +8,8 @@
 library cryptsy;
 
 import 'dart:async';
-import 'dart:typed_data';
-import 'dart:convert';
 
 import 'package:http/http.dart' as http;
-import "package:crypto/crypto.dart";
 
 part 'src/helpers.dart';
 
