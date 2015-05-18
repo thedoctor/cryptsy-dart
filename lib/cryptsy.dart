@@ -27,7 +27,7 @@ class Cryptsy {
   Map<String, Function> httpMethods;
 
   Cryptsy({String publicKey, String privateKey,
-      String uri: 'https://api.cryptsy.com/api/v2',
+      String uri: 'http://127.0.0.1:8081/cryptsy/api/v2',
       this.hmac,
       ClientFactory clientFactory: _baseClient})
       : publicKey = publicKey,
@@ -70,7 +70,9 @@ class Cryptsy {
     if (action != '') {
       requestUrl = [requestUrl, action].join('/');
     }
-
+    print(requestUrl);
+    print(headers);
+    print(body);
     return httpMethods[httpMethod](requestUrl, headers: headers, body: body);
   }
 
