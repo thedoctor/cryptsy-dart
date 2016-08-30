@@ -1,8 +1,8 @@
 # Cryptsy
 
-A Dart library for the [Cryptsy API (v2)](https://www.cryptsy.com/pages/apiv2).
+A Dart library for the now defunct [Cryptsy API (v2)](https://www.cryptsy.com/pages/apiv2).
 
-Lets you connect to your Cryptsy account and do Super Dope Altcoin Trading Stuff.
+Crypsty was a cryptocurrency exchange that operated a fractional reserve and disappeared. This was a fun project for learning Dart (which is also not used very much these days ;)
 
 
 ## Usage
